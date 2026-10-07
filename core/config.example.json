@@ -1,0 +1,83 @@
+{
+  "_comment": "★ 四项必填就能跑（照 bilibili-ai-bot 那套 ✓）；其余全有默认值",
+  "platform": {
+    "enabled": [
+      "qq",
+      "bilibili"
+    ]
+  },
+  "bilibili": {
+    "SESSDATA": "",
+    "BILI_JCT": "",
+    "DEDE_USER_ID": "",
+    "OWNER_MID": "",
+    "REFRESH_TOKEN": "",
+    "private_messages": {
+      "enable": true,
+      "auto_reply": true,
+      "scope": "all",
+      "max_per_poll": 3,
+      "max_age_seconds": 3600,
+      "trusted_domains": [
+        "bilibili.com",
+        "b23.tv"
+      ],
+      "auto_block": false
+    }
+  },
+  "qq": {
+    "ws": "ws://127.0.0.1:8643/ws",
+    "groups": [],
+    "owner": ""
+  },
+  "models": {
+    "chat": {
+      "base_url": "",
+      "api_key": "",
+      "model": "",
+      "fallback": {}
+    },
+    "vision": {},
+    "search": {},
+    "image": {},
+    "embedding": {
+      "model": "BAAI/bge-m3"
+    }
+  },
+  "persona": {
+    "active": "default",
+    "dir": "prompts",
+    "masters": []
+  },
+  "memory": {
+    "enable": true,
+    "per_user": true,
+    "per_thread": true,
+    "auto_compress": true
+  },
+  "affection": {
+    "enable": true,
+    "block_below": -30,
+    "abuse_strikes": 5
+  },
+  "mood": {
+    "enable": true
+  },
+  "growth": {
+    "enable": true,
+    "daily_reflect": true
+  },
+  "behavior": {
+    "proactive_videos": 3,
+    "proactive_comments": 2,
+    "daily_dynamics": 1,
+    "sleep": [
+      "02:00",
+      "08:00"
+    ]
+  },
+  "panel": {
+    "password": "YOUR_PANEL_PASSWORD",
+    "port": 8788
+  }
+}

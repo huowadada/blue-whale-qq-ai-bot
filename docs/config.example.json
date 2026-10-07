@@ -1,0 +1,12 @@
+{
+  "_readme": "填 4 项就能跑；别把填好的这个文件提交到 git！",
+  "qq": { "owner": "YOUR_QQ", "groups": [ "YOUR_GROUP_ID" ] },
+  "napcat": { "ws": "ws://127.0.0.1:3001", "accessToken": "YOUR_NAPCAT_ACCESS_TOKEN" },
+  "bilibili": { "SESSDATA": "YOUR_SESSDATA", "bili_jct": "YOUR_BILI_JCT", "DedeUserID": "YOUR_BILI_UID" },
+  "panel": { "port": 8787, "password": "YOUR_PANEL_PASSWORD" },
+  "models": { "chat": { "base_url": "https://api.deepseek.com/v1", "api_key": "YOUR_API_KEY", "model": "deepseek-chat" },
+              "vision": {}, "search": {}, "image": {} },
+  "behavior": { "proactive_videos": 3, "proactive_comments": 2, "daily_dynamics": 1,
+                "sleep": [ "02:00", "08:00" ], "redlines": [ "涉政", "涉黄" ] },
+  "memory": { "archive_minutes": 5, "rotate_lines": 4000, "rotate_mb": 3.0, "digest_max_chars": 3000 }
+}

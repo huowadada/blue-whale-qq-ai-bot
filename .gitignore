@@ -1,0 +1,10 @@
+config.json
+secrets/
+*.log
+__pycache__/
+*.pyc
+history/
+memory/
+state.json
+notes.json
+*.bak*
